@@ -1,15 +1,27 @@
 {
-  "name": "my-next-app",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
+    "xdn": "xdn",
+    "xdn:start": "xdn run",
+    "xdn:build": "xdn build",
+    "xdn:deploy": "xdn deploy",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
+  "name": "my-next-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "next": "9.5.5",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@xdn/cli": "^2.29.0",
+    "@xdn/core": "^2.29.0",
+    "@xdn/devtools": "^2.29.0",
+    "@xdn/next": "^2.29.0",
+    "@xdn/prefetch": "^2.29.0",
+    "@xdn/react": "^2.29.0"
   }
 }
